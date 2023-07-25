@@ -1,0 +1,52 @@
+Bebidas: 
+Cafe: cafe, latte, expresso, americano, cortado, cappuccino, mocca
+Jugos: Manzana, Naranja, Durazon, Frutilla
+Malteadas: Chocolate, Frutilla, Vainilla, Banana
+
+Salado:
+Sanguches: jamon-queso, queso-salame,queso, jamon-queso-huevo, olimpico, pollo, vegetales asados, atun
+Sanguches veganos: palta-tomate, lentejas, tofu-espinacas, hummus-vegetales, palta-queso vegano
+Ensaladas: poke de atun-algas-palta, panzanella italiana, caprese, nicise, greiga, kartoffelsalat, pepino al japones,namasu de zanahoria-navo
+Bizcochos: croasaint,pan con grasa, rellenos: jamon/queso, torta de puerro, muffins de choclo, tarta de jamon-queso-aceitunas/ queso azul-peras-nueces, budin de coliflor 
+
+Dulce:
+Galletas: chocolate, vainilla, marmoladas, rellenas: dulce de leche, mermelada: frutilla/naranja/durazno, chocolate con chispas: chocolate blanco/negro, vainilla con chispas: chocolate blanco/negro, ojitos
+Bizcochos: croasaint dulce, rellenos: dulce de leche, mermeladas: ffrutilla, durazno, naranja, frutos rojos,, margaritas
+Tortas: mousse de chocolate-bailey, crema de vainilla-fresas, cheesecake de nuttela, banana cream pie, tres chocolates, chocolate-banana, tarta de la abuela, chocotorta, manzana y chocolate blanco, chessecake, oreo-chocolate blanco, 
+Pasteles: red velvet, chocolate, brownie, tres leches, tiramisu, limon, vainilla, zanahoria,  
+
+Especiales:
+Lunes
+Martes
+Miercoles
+Jueves
+Viernes
+
+
+
+<ul>
+          <li class="op-menu "><a href="#">Sandwiches</a></li>
+          <li class="op-menu"><a href="#">Sandwiches veganos</a></li>
+          <li class="op-menu"><a href="#">Ensaladas</a></li>
+          <li class="op-menu"><a href="#">Bizcochos</a></li>
+      </ul>
+      </li>
+      <li id="yellow"class="op-menu"><a href="dulce.html">Dulce</a>
+        <ul>
+          <li class="op-menu "><a href="#">Galletas</a></li>
+          <li class="op-menu"><a href="#">Bizcochos</a></li>
+          <li class="op-menu"><a href="#">Tortas</a></li>
+          <li class="op-menu"><a href="#">Pasteles</a></li>
+      </ul>
+      </li>
+      <li id="red"class="op-menu"><a href="especial.html">Especiales</a>
+        <ul>
+          <li class="op-menu "><a href="#">Lunes</a></li>
+          <li class="op-menu"><a href="#">Martes</a></li>
+          <li class="op-menu"><a href="#">Miercoles</a></li>
+          <li class="op-menu"><a href="#">Jueves</a></li>
+          <li class="op-menu"><a href="#">Viernes</a></li>
+          <li class="op-menu"><a href="#">Sabado</a></li>
+          <li class="op-menu"><a href="#">Domingo</a></li>
+      </ul>
+      </li>

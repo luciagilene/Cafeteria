@@ -1,0 +1,1086 @@
+* {margin:0}
+/*......................................................GENERAL........................................................*/
+/*........................................................NAV..........................................................*/
+nav {
+  width: 100vw; 
+  height: 10vh; 
+  background:rgb(255, 242, 232);
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: row;
+  position: fixed; 
+  top:0; 
+  left: 0;
+  font-family: Si;
+  z-index: 20000;
+  }
+/*.......................................................BODY..........................................................*/
+body{
+  background:rgb(255, 242, 232);
+}
+/*.......................................................CLASES......................................................*/
+.clase1 {
+  width:10vw; height: 10vh; 
+  align-items: center;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  margin-left: 90px;
+}
+.clase3 {
+  width:50vw; height:110vh; 
+  margin-bottom: -100px;
+  } 
+/*.......................................................HEADER.......................................................*/
+  header{
+    height: 150vh;
+    width: 100vw;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-size: 100vw 100vh;
+    background-color: rgb(255, 242, 232);
+    }
+
+  .header2{
+    height: 80vh;
+    width: 100vw;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-size: 100vw 100vh;
+    background-color: rgb(255, 242, 232);
+  }
+    
+
+/*.........................................................MENU............................................................*/
+.menu-barras, .menu-oculto {
+   display: none;
+}
+      
+.menu-adaptable{
+display: none;
+flex-direction: column;
+}
+
+  ul {
+    list-style-type:none; 
+    width: 50%; 
+    margin: 0 auto;
+    margin-right: 0px;
+    margin-top: -100vw
+  }
+
+  ul li {
+    float: left; 
+    position: relative
+  }
+
+  ul li#blue ul { 
+    display:none; 
+    position:absolute; 
+    top:53px;
+    left:0; 
+    width:200px;
+  }
+  ul li#blue:hover ul { 
+    display:block; 
+    left:-40px;
+  }
+  ul li#green ul { 
+    display:none; 
+    position:absolute; 
+    top:53px;
+    left:0; 
+    width:200px;
+  }
+  ul li#green:hover ul { 
+    display:block; 
+    left:-40px;
+  }
+  ul li#orange ul { 
+    display:none; 
+    position:absolute; 
+    top:53px;
+    left:0; 
+    width:200px;
+  }
+  ul li#orange:hover ul { 
+    display:block; 
+    left:-40px;
+  }
+  ul li#yellow ul { 
+    display:none; 
+    position:absolute; 
+    top:53px;
+    left:0; 
+    width:200px;
+  }
+  ul li#yellow:hover ul { 
+    display:block; 
+    left:-40px;
+  }
+  ul li#red ul { 
+    display:none; 
+    position:absolute; 
+    top:53px;
+    left:0; 
+    width:200px;
+  }
+  ul li#red:hover ul { 
+    display:block; 
+    left:-40px;
+  }
+
+  ul ul li {
+    float:none; 
+    text-align:left;
+  }
+  ul li a { 
+    text-decoration:none; 
+    font-weight:bold; 
+    font-size: large;
+    display:block; 
+    line-height:2em;
+    color:black; 
+    padding: 10px 20px;
+    background-color:rgb(255, 242, 232);
+    border-left:1px solid rgb(255, 242, 232);
+    border-right:1px solid rgb(255, 242, 232);
+    border-bottom:1px solid rgb(255, 242, 232);
+  }
+  ul ul li a {
+   font-weight:normal ;
+   border-right: none;
+   border-left: none;
+  }
+  ul li a:hover {color:rgb(252, 114, 59);}
+  
+  ul ul li a:hover {color:rgb(248, 133, 87);background-color:rgb(245, 188, 144);}
+  
+  ul li#green a:hover {background-color:rgb(252, 217, 191);}
+  ul li#blue a:hover {background-color:rgb(252, 217, 191);}
+  ul li#orange a:hover {background-color:rgb(252, 217, 191);}
+  ul li#yellow a:hover {background-color:rgb(252, 217, 191);}
+  ul li#red a:hover {background-color:rgb(252, 217, 191);}
+  ul li#pink a:hover {background-color:rgb(252, 217, 191);}
+
+  ul li #pink{
+    margin-right: 0vw;
+    margin-bottom: -30vh;
+  }
+
+section, #submenu, #submenu2, #submenu3{
+  display:flex; 
+  align-items: center;
+  background-size: 100vw 30vh;
+  background-color: rgb(255, 242, 232);
+}
+ section, #submenu4, #submenu5, #submenu6, #submenu7{
+  display:flex; 
+  align-items: center;
+  background-size: 100vw 100vh;
+  background-color: rgb(255, 242, 232);
+}
+section, #submenu8, #submenu9, #submenu10, #submenu11{
+  display:flex; 
+  align-items: center;
+  background-size: 100vw 100vh;
+  background-color: rgb(255, 242, 232);
+}
+section, #submenu12, #submenu13, #submenu14, #submenu15, #submenu16, #submenu17, #submenu18{
+  display:flex; 
+  align-items: center;
+  background-size: 100vw 100vh;
+  background-color: rgb(255, 242, 232);
+}
+
+
+/*...................................................FOOTER.............................................................*/
+ footer {
+  height: 50vh;
+  width: 100vw;
+  background:rgb(255, 242, 232);
+ }
+  
+ .footer-logo{
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+ }
+
+ .footer-texto {
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-bottom: 30px;
+  font-family: "Quicksand" sans-serif;
+ }
+
+ .iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+  margin-top: 30vh;
+ }
+
+ .iconos-redes-sociales i {
+  color: black;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+  margin-left: -75vw;
+  margin-top: -10vh;
+}
+
+/*...............................................ANIMACION.............................................................*/
+.swiper {
+  width: 683px;
+  min-width: 600px;
+  height: 0vh;
+  padding-bottom: 15px;
+  left: -0.5vw;
+  top: -28vh;
+  position: absolute;
+}
+
+.swiper-slide-img {
+  height: 10vh;
+  width: 100%;
+  border: 30px solid #d8d8d8;  /* move next and prev buttons off img */ 
+  min-height: 70vh;
+  
+}
+
+.swiper-slide-img:hover {
+  cursor: pointer;
+}
+
+.gallery-thumb .swiper-slide img:hover, .swiper-slide img:hover  {
+    cursor: pointer;
+ 
+}
+
+
+.swiper-button-prev:focus {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.swiper-button-next {
+  position: absolute;
+  transform: translateX(40%);
+  color: black;
+  font-weight: 900;
+}
+
+
+/* ................................................ thumbs .......................................................... */
+
+.gallery-thumbs {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+    left: -6.5vw;
+    top: -5vh;
+}
+
+.gallery-thumbs .swiper-slide2 {
+    width: 25%;
+    opacity: 0.8    ;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active2 {
+    opacity: 1;
+}
+  
+.gallery-thumbs .swiper-slide2 img {
+    width: 100%;
+    height: 100px;
+    min-height: 70px;
+    object-fit: cover;
+}
+
+
+/* ................................................ modal .......................................................... */
+.modal {
+  display:none;
+  position: fixed;
+  z-index: 2;
+  left: -6.5svw;
+  top: 10vh;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.modal-content {
+  background-color: rgb(0, 0, 0);
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  min-width: 300px;
+  animation-name: modalOpen;
+  animation-duration: 1s;
+}
+
+.closeBtn {
+  position: absolute;  /* removed from normal flow of doc, positioned relative to its nearest ancestor (modal content)*/
+  z-index: 4;
+  color:white;
+  right: 5px;
+  font-size: 30px;
+}
+
+ .closeBtn:hover,.closeBtn2:focus {
+  color: rgb(114, 114, 114);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalOpen {
+  from{opacity: 0}
+  to {opacity: 1}
+}
+
+/* ............................................. modal swiper gallery ....................................................... */
+/* used ids higher specificity to override gallery styles */
+
+#swiper-button-next-modal {
+  transform:translateX(-40%);
+  color: white;
+}
+
+#swiper-button-prev-modal {
+  transform:translateX(40%);
+  color: white;
+}
+
+.swiper-slide-modal {
+  height: 100vh;
+}
+
+.swiper-lazy-modal {
+  object-fit: contain;
+  border:0;  
+}
+/* ............................................. responsiveness ....................................................... */
+@media all and (max-width: 520px) {
+  .swiper {
+    width: calc(100vw - 20px);
+  }
+
+  .swiper-button-next:after {
+    font-size: 20px !important;
+    transform:translateX(60%);
+  }
+  
+  
+
+  .swiper-button-prev:after {
+    font-size: 20px !important;
+    transform:translateX(-60%);
+  }
+
+  #swiper-button-next-modal {
+    font-size: 20px !important;
+    transform:translateX(20%);
+  }
+  
+  #swiper-button-prev-modal {
+    font-size: 20px !important;
+    transform:translateX(-20%);
+  }
+
+  .swiper-pagination {
+    padding: 4px;
+  }
+
+  .swiper-slide-img {
+    width: calc(100vw-32px);
+    height: auto;
+    border: 16px solid #d8d8d8;  /* move next and prev buttons off img */ 
+    min-height: calc((0.5338 * 100vw) + 48.476px); 
+  }
+
+  .swiper-pagination .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+  }
+
+.gallery-thumbs .swiper-slide img {
+        height: 14vw;
+    }
+
+}
+
+@media all and (max-width: 360px) {
+  .swiper-slide-img {
+    border: 1px solid #d8d8d8; 
+  }
+}
+
+
+/*.......................................................FOTOS..........................................................*/
+.foto1{
+  position: absolute;
+  margin-left:-1015px;
+  margin-top: -600px;
+}
+
+.foto2{
+  position: absolute;
+  margin-left:-1015px;
+  margin-top: -190px;
+}
+
+.foto3{
+  position: absolute;
+  margin-left:0vw;
+  margin-top: -590px;
+}
+
+.foto4{
+  position: absolute;
+  margin-left:0vw;
+  margin-top: -180px;
+}
+
+
+.foto5 {
+  width: 910px;
+  height: 300px;
+  border: 1px solid rgb(253, 178, 178);
+  top: 80vh;
+  left: 18vw;
+  position: absolute;
+}
+
+/*.....................................................OFERTAS..............................................................*/
+
+.oferta1{
+  position: absolute;
+  margin-left:-48vw;
+  margin-top: -60vh;
+}
+
+.oferta2{
+  position: absolute;
+  margin-left:-28vw;
+  margin-top: -60vh;
+}
+
+.oferta3{
+  position: absolute;
+  margin-left:-8vw;
+  margin-top: -60vh;
+}
+
+.oferta4{
+  position: absolute;
+  margin-left:12vw;
+  margin-top: -60vh;
+}
+
+.oferta5{
+  position: absolute;
+  margin-left:32vw;
+  margin-top: -60vh;
+}
+
+
+.oferta6{
+  position: absolute;
+  margin-left:-48vw;
+  margin-top: 90vh;
+}
+
+.oferta7{
+  position: absolute;
+  margin-left:-28vw;
+  margin-top: 90vh;
+}
+
+.oferta8{
+  position: absolute;
+  margin-left:-8vw;
+  margin-top: 90vh;
+}
+
+.oferta9{
+  position: absolute;
+  margin-left:12vw;
+  margin-top: 90vh;
+}
+
+.oferta10{
+  position: absolute;
+  margin-left:32vw;
+  margin-top: 90vh;
+}
+
+/*.....................................................BEBIDAS..............................................................*/
+
+/*......................................................FOTOS.............................................................*/
+
+/*..................................................MENU PRINCIPAL.........................................................*/
+.menuC{
+  position: absolute;
+  margin-left:-20vw;
+  margin-top: 34vh;
+}
+
+.menuJ{
+  position: absolute;
+  margin-left:7vw;
+  margin-top: 34vh;
+}
+
+.menuM{
+  position: absolute;
+  margin-left:35vw;
+  margin-top: 34vh;
+}
+
+/*.....................................................MENU CAFES........................................................*/
+
+.menuC2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 18vh;
+}
+.menuC3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 18vh;
+}
+.menuC4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 18vh;
+}
+.menuC5{
+  position: absolute;
+  margin-left:71vw;
+  margin-top: 18vh;
+}
+.menuC6{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 56vh;
+}
+.menuC7{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 56vh;
+}
+.menuC8{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 56vh;
+}
+/*.....................................................MENU JUGOS........................................................*/
+
+.menuJ2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 20vh;
+}
+.menuJ3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 20vh;
+}
+.menuJ4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 20vh;
+}
+.menuJ5{
+  position: absolute;
+  margin-left:71vw;
+  margin-top: 20vh;
+}
+.menuJ6{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 58vh;
+}
+.menuJ7{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 58vh;
+}
+.menuJ8{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 58vh;
+}
+
+/*...................................................MALTEADAS..........................................................*/
+.menuM2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 20vh;
+}
+.menuM3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 20vh;
+}
+.menuM4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 20vh;
+}
+.menuM5{
+  position: absolute;
+  margin-left:71vw;
+  margin-top: 20vh;
+}
+.menuM6{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 58vh;
+}
+.menuM7{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 58vh;
+}
+.menuM8{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 58vh;
+}
+
+/*....................................................DULCES...............................................................*/
+/*....................................................FOTOS..............................................................*/
+/*................................................MENU PRINCIPAL...........................................................*/
+
+.menuG{
+  position: absolute;
+  margin-left:-23vw;
+  margin-top: 34vh;
+}
+
+.menuB{
+  position: absolute;
+  margin-left:1vw;
+  margin-top: 34vh;
+}
+
+.menuT{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 34vh;
+}
+
+.menuP{
+  position: absolute;
+  margin-left:49vw;
+  margin-top: 34vh;
+}
+/*......................................................GALLETAS..........................................................*/
+
+.menuG2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 36vh;
+}
+.menuG3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 36vh;
+}
+.menuG4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 36vh;
+}
+/*.....................................................BIZCOCHOS..........................................................*/
+.menuB2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 36vh;
+}
+.menuB3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 36vh;
+}
+.menuB4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 36vh;
+}
+/*.......................................................TORTAS...........................................................*/
+.menuT2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 36vh;
+}
+.menuT3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 36vh;
+}
+.menuT4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 36vh;
+}
+/*.....................................................PASTELES...........................................................*/
+
+.menuP2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 36vh;
+}
+.menuP3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 36vh;
+}
+.menuP4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 36vh;
+}
+
+/*....................................................SALADOS.............................................................*/
+/*.....................................................FOTOS..............................................................*/
+/*.................................................MENU PRINCIPAL..........................................................*/
+.menuS{
+  position: absolute;
+  margin-left:-23vw;
+  margin-top: 34vh;
+}
+
+.menuV{
+  position: absolute;
+  margin-left:1vw;
+  margin-top: 34vh;
+}
+
+.menuE{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 34vh;
+}
+
+.menuBS{
+  position: absolute;
+  margin-left:49vw;
+  margin-top: 34vh;
+}
+/*...................................................SANGUCHES............................................................*/
+.menuS2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 36vh;
+}
+.menuS3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 36vh;
+}
+.menuS4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 36vh;
+}
+/*....................................................VEGANOS.............................................................*/
+.menuV2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 36vh;
+}
+.menuV3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 36vh;
+}
+.menuV4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 36vh;
+}
+/*...................................................ENSALADAS............................................................*/
+.menuE2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 36vh;
+}
+.menuE3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 36vh;
+}
+.menuE4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 36vh;
+}
+/*...................................................BIZCOCHOS............................................................*/
+.menuBS2{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 36vh;
+}
+.menuBS3{
+  position: absolute;
+  margin-left:25vw;
+  margin-top: 36vh;
+}
+.menuBS4{
+  position: absolute;
+  margin-left:48vw;
+  margin-top: 36vh;
+}
+/*..................................................ESPECIALES............................................................*/
+/*....................................................FOTOS...............................................................*/
+/*..................................................PRINCIPAL.............................................................*/
+.especials {
+  width: 40vw;
+  height: 40vh;
+  border: 1px solid rgb(253, 178, 178);
+  top: 12vh;
+  left: 30vw;
+  position: absolute;
+}
+/*LUNES*/
+.especialL{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 26vh;
+}
+/*MARTES*/
+.especialM{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 26vh;
+}
+/*MIERCOLES*/
+.especialMI{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 26vh;
+}
+/*JUEVES*/
+.especialJ{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 26vh;
+}
+/*VIERNES*/
+.especialV{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 26vh;
+}
+/*SABADO*/
+.especialS{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 26vh;
+}
+/*DOMINGO*/
+.especialD{
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 26vh;
+}
+
+
+
+
+
+
+/*.................................................MENU GENERAL.........................................................*/
+.menu2{
+  position: absolute;
+  margin-left:5vw;
+  margin-top: 100vh;
+}
+
+.menu3{
+  position: absolute;
+  margin-left:40vw;
+  margin-top: 80vh;
+}
+
+.menu4{
+  position: absolute;
+  margin-left:40vw;
+  margin-top: 120vh;
+}
+
+/*.....................................................TEXTO..............................................................*/
+/*.................................................MENU EN COMUN.........................................................*/
+.menu11 {
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 22vh;
+  margin-left: -23vw;
+}
+/*....................................................BEBIDAS...............................................................*/
+.bebida1{
+    position: absolute;
+    color: black;
+    font-size: 12mm;
+    margin-top: 7vh;
+    margin-left: 2vw;
+}
+
+.bebida2{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 9vh;
+  margin-left: 2vw;
+}
+.bebida3{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 7vh;
+  margin-left: 2vw;
+}
+/*..........................................................DULCE........................................................*/
+.dulce1{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 20vh;
+  margin-left: 2vw;
+}
+
+.dulce2{
+position: absolute;
+color: black;
+font-size: 12mm;
+margin-top: 20vh;
+margin-left: 2vw;
+}
+.dulce3{
+position: absolute;
+color: black;
+font-size: 12mm;
+margin-top: 20vh;
+margin-left: 2vw;
+}
+.dulce4{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 20vh;
+  margin-left: 2vw;
+  }
+
+/*..........................................................SALADO.......................................................*/
+.salado1{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 20vh;
+  margin-left: 2vw;
+}
+
+.salado2{
+position: absolute;
+color: black;
+font-size: 12mm;
+margin-top: 20vh;
+margin-left: 2vw;
+}
+.salado3{
+position: absolute;
+color: black;
+font-size: 12mm;
+margin-top: 20vh;
+margin-left: 2vw;
+}
+.salado4{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 20vh;
+  margin-left: 2vw;
+  }
+
+/*.....................................................ESPECIALES........................................................*/
+
+.especial1{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 13vh;
+  margin-left: 2vw;
+}
+
+.especial2{
+position: absolute;
+color: black;
+font-size: 12mm;
+margin-top: 13vh;
+margin-left: 2vw;
+}
+.especial3{
+position: absolute;
+color: black;
+font-size: 12mm;
+margin-top: 13vh;
+margin-left: 2vw;
+}
+.especial4{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 13vh;
+  margin-left: 2vw;
+  }
+  .especial5{
+    position: absolute;
+    color: black;
+    font-size: 12mm;
+    margin-top: 13vh;
+    margin-left: 2vw;
+  }
+  
+  .especial6{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 13vh;
+  margin-left: 2vw;
+  }
+  .especial7{
+  position: absolute;
+  color: black;
+  font-size: 12mm;
+  margin-top: 13vh;
+  margin-left: 2vw;
+  }
+ 

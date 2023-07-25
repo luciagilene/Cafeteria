@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../recursos/logoNombre.PNG">
+    <title>CAFETERIA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_media.css">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".menu-barras").click(function(){
+        $(".menu-adaptable").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $(".op-menu-oculto").click(function(){
+        $(".op-menu-adaptable").hide();
+    });
+});
+    
+        </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+    type="text/javascript" charset="utf-8"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <!-- iconos de booststra -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+  
+  
+</head>
+
+
+<body>
+
+    <nav>
+
+      <div class="clase1">
+        <img src="../recursos/logo3.PNG"
+        width="300"
+        height="60"
+        alt="imagen del logo AI"
+        title="logo AI">
+    </div>
+    <ul>
+      <li id="green" class="op-menu"><a href="index.html">Inicio</a></li>
+      <li id="blue"class="op-menu"><a href="bebidas.html">Bebidas</a>
+          <ul>
+              <li class="op-menu "><a href="#submenu">Cafe</a></li>
+              <li class="op-menu"><a href="#submenu2">Jugo</a></li>
+              <li class="op-menu"><a href="#submenu3">Malteadas</a></li>
+          </ul>
+      </li> 
+      <li id="orange"class="op-menu"><a href="salado.html">Salado</a>
+        <ul>
+          <li class="op-menu "><a href="#submenu4">Sandwiches</a></li>
+          <li class="op-menu"><a href="#submenu5">Sandwiches veganos</a></li>
+          <li class="op-menu"><a href="#submenu6">Ensaladas</a></li>
+          <li class="op-menu"><a href="#submenu7">Bizcochos</a></li>
+      </ul>
+      </li>
+      <li id="yellow"class="op-menu"><a href="dulce.html">Dulce</a>
+        <ul>
+          <li class="op-menu "><a href="#submenu8">Galletas</a></li>
+          <li class="op-menu"><a href="#submenu9">Bizcochos</a></li>
+          <li class="op-menu"><a href="#submenu10">Tortas</a></li>
+          <li class="op-menu"><a href="#submenu11">Pasteles</a></li>
+      </ul>
+      </li>
+      <li id="red"class="op-menu"><a href="especial.html">Especiales</a>
+        <ul>
+          <li class="op-menu "><a href="#submenu12">Lunes</a></li>
+          <li class="op-menu"><a href="#submenu13">Martes</a></li>
+          <li class="op-menu"><a href="#submenu14">Miercoles</a></li>
+          <li class="op-menu"><a href="#submenu15">Jueves</a></li>
+          <li class="op-menu"><a href="#submenu16">Viernes</a></li>
+          <li class="op-menu"><a href="#submenu17">Sabado</a></li>
+          <li class="op-menu"><a href="#submenu18">Domingo</a></li>
+      </ul>
+      </li>
+      <li id="pink"class="op-menu"><a href="ofertas.html">Ofertas</a></li>
+      <li><a class="menu-barras" href="#barras">☰</a></li>
+  </ul>
+
+  <div class="menu-adaptable">
+  <ul class="menu-oculto">
+    <li id="green" class="menu-hover"><a class="op-menu-oculto" href="index.html">Inicio</a></li>
+    <li id="blue" class="menu-hover"><a class="op-menu-oculto" href="bebidas.html">Bebidas</a>
+        <ul>
+            <li class="menu-hover "><a href="#">Link 1</a></li>
+            <li class="menu-hover "><a href="#">Link 2</a></li>
+        </ul>
+    </li> 
+    <li id="orange" class="menu-hover"><a class="op-menu-oculto" href="salado.html">Salado</a></li>
+    <li id="yellow" class="menu-hover"><a class="op-menu-oculto" href="dulce.html">Dulce</a></li>
+    <li id="red" class="menu-hover"><a class="op-menu-oculto" href="especial.html">Especiales</a></li>
+    <li id="pink" class="menu-hover"><a class="op-menu-oculto" href="ofertas.html">Ofertas</a></li>
+</ul>
+  </div>
+
+</nav>
+
+<header class="header2" id="dulce">
+
+  <article class="clase3">
+    <a class="menu11">MENU</a>
+
+    <div class="menuG">
+      <img src="../recursos/menuG.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+    <div class="menuB">
+      <img src="../recursos/menuB.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+    <div class="menuT">
+      <img src="../recursos/menuT.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+    <div class="menuP">
+      <img src="../recursos/menuP.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+   </article>
+
+ </header>
+
+ <section id="submenu8">
+  <article class="clase3">
+    <a class="dulce1">GALLETAS</a>
+    
+    <div class="menuG2">
+      <img src="../recursos/menuG2.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+    <div class="menuG3">
+      <img src="../recursos/menuG3.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+    <div class="menuG4">
+      <img src="../recursos/menuG4.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+   </article>
+ </section>
+
+ <section id="submenu9">
+  <article class="clase3">
+    <a class="dulce2">BIZCOCHOS</a>
+
+    <div class="menuB2">
+      <img src="../recursos/menuB2.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+    <div class="menuB3">
+      <img src="../recursos/menuB3.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+    <div class="menuB4">
+      <img src="../recursos/menuB4.PNG"
+        href=""
+        width="300"
+        height="240"
+        alt="jc">
+    </div>
+
+   </article>
+ </section>
+
+ <section id="submenu10">
+  <article class="clase3">
+   <a class="dulce3">TORTAS</a>
+    
+   <div class="menuT2">
+    <img src="../recursos/menuT2.PNG"
+      href=""
+      width="300"
+      height="240"
+      alt="jc">
+  </div>
+
+  <div class="menuT3">
+    <img src="../recursos/menuT3.PNG"
+      href=""
+      width="300"
+      height="240"
+      alt="jc">
+  </div>
+
+  <div class="menuT4">
+    <img src="../recursos/menuT4.PNG"
+      href=""
+      width="300"
+      height="240"
+      alt="jc">
+  </div>
+
+   </article>
+ </section>
+
+ <section id="submenu11">
+  <article class="clase3">
+   <a class="dulce3">PASTELES</a>
+    
+   <div class="menuP2">
+    <img src="../recursos/menuP2.PNG"
+      href=""
+      width="300"
+      height="240"
+      alt="jc">
+  </div>
+
+  <div class="menuP3">
+    <img src="../recursos/menuP3.PNG"
+      href=""
+      width="300"
+      height="240"
+      alt="jc">
+  </div>
+
+  <div class="menuP4">
+    <img src="../recursos/menuP4.PNG"
+      href=""
+      width="300"
+      height="240"
+      alt="jc">
+  </div>
+
+   </article>
+ </section>
+
+
+ <footer class="seccion-obscura d-flex flex-column align-items-center justify-content-center">
+
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center">
+
+    <a href="https://github.com/luciagilene" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/aixa-gilene-773375260/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+
+    <a href="https://www.instagram.com/luli_gilene/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+
+    <a href="mailto: gileneaixa04@gmail.com" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>
+
+  </div>
+
+   <div class="derechos-de-autor">Creado por Lucia Gilene (2023) &#169;</div>
+  
+</footer>
+
+  <script>
+    $(function(){
+        $('a[href*=#]').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+            && location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+                        if ($target.length) {
+                            var targetOffset = $target.offset().top;
+                    $('html,body').animate({scrollTop: targetOffset}, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

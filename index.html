@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../recursos/logoNombre.PNG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CAFETERIA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_media.css">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".menu-barras").click(function(){
+        $(".menu-adaptable").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $(".op-menu-oculto").click(function(){
+        $(".op-menu-adaptable").hide();
+    });
+});
+    
+        </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+    type="text/javascript" charset="utf-8"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <!-- iconos de booststra -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@9.2.4/swiper-bundle.min.css">
+
+</head>
+
+
+<body>
+
+    <nav>
+
+      <div class="clase1">
+        <img src="../recursos/logo3.PNG"
+        width="300"
+        height="60"
+        alt="imagen del logo AI"
+        title="logo AI">
+    </div>
+
+    <ul>
+      <li id="green" class="op-menu"><a href="index.html">Inicio</a></li>
+      <li id="blue"class="op-menu"><a href="bebidas.html">Bebidas</a>
+          <ul>
+              <li class="op-menu "><a href="#">Cafe</a></li>
+              <li class="op-menu"><a href="#">Jugo</a></li>
+              <li class="op-menu"><a href="#">Malteadas</a></li>
+          </ul>
+      </li> 
+      <li id="orange"class="op-menu"><a href="salado.html">Salado</a>
+        <ul>
+          <li class="op-menu "><a href="#">Sandwiches</a></li>
+          <li class="op-menu"><a href="#">Sandwiches veganos</a></li>
+          <li class="op-menu"><a href="#">Ensaladas</a></li>
+          <li class="op-menu"><a href="#">Bizcochos</a></li>
+      </ul>
+      </li>
+      <li id="yellow"class="op-menu"><a href="dulce.html">Dulce</a>
+        <ul>
+          <li class="op-menu "><a href="#">Galletas</a></li>
+          <li class="op-menu"><a href="#">Bizcochos</a></li>
+          <li class="op-menu"><a href="#">Tortas</a></li>
+          <li class="op-menu"><a href="#">Pasteles</a></li>
+      </ul>
+      </li>
+      <li id="red"class="op-menu"><a href="especial.html">Especiales</a>
+        <ul>
+          <li class="op-menu "><a href="#">Lunes</a></li>
+          <li class="op-menu"><a href="#">Martes</a></li>
+          <li class="op-menu"><a href="#">Miercoles</a></li>
+          <li class="op-menu"><a href="#">Jueves</a></li>
+          <li class="op-menu"><a href="#">Viernes</a></li>
+          <li class="op-menu"><a href="#">Sabado</a></li>
+          <li class="op-menu"><a href="#">Domingo</a></li>
+      </ul>
+      </li>
+      <li id="pink"class="op-menu"><a href="ofertas.html">Ofertas</a></li>
+      <li><a class="menu-barras" href="#barras">☰</a></li>
+  </ul>
+
+  <div class="menu-adaptable">
+  <ul class="menu-oculto">
+    <li id="green" class="menu-hover"><a class="op-menu-oculto" href="index.html">Inicio</a></li>
+    <li id="blue" class="menu-hover"><a class="op-menu-oculto" href="bebidas.html">Bebidas</a>
+        <ul>
+            <li class="menu-hover "><a href="#">Link 1</a></li>
+            <li class="menu-hover "><a href="#">Link 2</a></li>
+        </ul>
+    </li> 
+    <li id="orange" class="menu-hover"><a class="op-menu-oculto" href="salado.html">Salado</a></li>
+    <li id="yellow" class="menu-hover"><a class="op-menu-oculto" href="dulce.html">Dulce</a></li>
+    <li id="red" class="menu-hover"><a class="op-menu-oculto" href="especial.html">Especiales</a></li>
+    <li id="pink" class="menu-hover"><a class="op-menu-oculto" href="ofertas.html">Ofertas</a></li>
+</ul>
+  </div>
+
+</nav>
+
+   <header id="index">
+    <article>
+     
+      <div id="simpleModal" class="modal">
+        <div class="modal-content">
+          <span class="closeBtn">&times;</span>
+          <!-- Swiper modal -->
+          <div id="swiper-container-modal" class="swiper-container-modal">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-modal">
+                <div class="swiper-zoom-container">
+                  <img class="swiper-lazy-modal" data-src="../recursos/menu2.PNG" loading="lazy" />
+                 <div class="swiper-lazy-preloader"></div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-modal">
+                <div class="swiper-zoom-container">
+                  <img class="swiper-lazy-preloader swiper-lazy-modal" data-src="../recursos/combo.jpg" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-modal">
+                <div class="swiper-zoom-container">
+                  <img class="swiper-lazy-preloader swiper-lazy-modal" data-src="../recursos/deTodo.jpg" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-modal">
+                <div class="swiper-zoom-container">
+                  <img class="swiper-lazy-preloader swiper-lazy-modal" data-src="../recursos/cook+cafe.jpg" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-modal">
+                <div class="swiper-zoom-container">
+                  <img class="swiper-lazy-preloader swiper-lazy-modal" data-src="../recursos/panqueques.png" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-modal">
+                <div class="swiper-zoom-container">
+                  <img class="swiper-lazy swiper-lazy-modal" data-src="../recursos/torta+cafe.jpg" loading="lazy">
+                </div>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+        
+            <!-- Add Pagination -->
+            <div id="swiper-button-next-modal" class="swiper-button-next"></div>
+            <div id="swiper-button-prev-modal" class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Swiper -->
+      <div class="swiper swiper-container-main">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../recursos/MenuBebidas.PNG"></div>
+          <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../recursos/MenuSalado.PNG"></div>
+          <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../recursos/MenuSalado2.PNG"></div>
+          <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../recursos/MenuDulce.PNG"></div>
+          <div class="swiper-slide minimum-height"><img class="swiper-slide-img" src="../recursos/MenuDulce2.PNG"></div>
+        </div>
+        <!-- Add Pagination -->
+       
+        <!-- Add Pagination -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    
+          <!-- Swiper thumbnails -->
+    <div class="swiper gallery-thumbs">
+      <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-thumbs">     
+         <img src="../recursos/menu2.PNG">  
+                </div>
+                <div class="swiper-slide swiper-slide-thumbs">     
+         <img src="../recursos/combo.jpg">  
+                </div>
+                <div class="swiper-slide swiper-slide-thumbs">     
+         <img src="../recursos/deTodo.jpg">  
+                </div>
+                <div class="swiper-slide swiper-slide-thumbs">     
+         <img src="../recursos/cook+cafe.jpg">  
+                </div>
+                <div class="swiper-slide swiper-slide-thumbs">     
+         <img src="../recursos/panqueques.png">  
+                </div> 
+                <div class="swiper-slide swiper-slide-thumbs">     
+         <img src="../recursos/torta+cafe.jpg">  
+       </div>
+    </div>	
+    
+    </article>
+
+    <section>
+      <div class="foto1">
+        <a href="salado.html"><img src="../recursos/jugo+comida.jpg"
+        href=""
+        width="320"
+        height="200"
+        alt="jc">
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="foto2">
+        <a href="bebidas.html"><img src="../recursos/3cafes.jpg"
+        width="320"
+        height="200"
+        alt="imagen 3 cafes">
+      </a>
+      </div>
+    </section>
+
+   <section>
+     <div class="foto3">
+      <a href="especial.html"><img src="../recursos/huevos.png"
+      width="320"
+      height="200"
+      alt="huevos">
+      </a>
+     </div>
+    </section>
+
+    <section>
+      <div class="foto4">
+       <a href="dulce.html"><img src="../recursos/tortas.jpg"
+       width="320"
+       height="200"
+       alt="tortas">
+       </a>
+      </div>
+     </section>
+
+     <section>
+      <div class="foto5">
+        <a href="ofertas.html"><img src="../recursos/ofertas.PNG"
+        width=" 910"
+        height="300"
+        alt="tortas">
+        </a>
+       </div>
+     </section>
+
+  </header>
+
+  <script>
+   <!-- Initialize Swiper -->
+var galleryThumbs = new Swiper('.gallery-thumbs', {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true,
+  loop: true,
+  //autoHeight: true, //enable auto height
+  // Enable lazy loading
+  preloadImages: false,
+  lazy: true,
+  lazy: {
+    loadPrevNext: true,
+  },
+});
+
+
+var swiper = new Swiper('.swiper-container-main', {
+  autoHeight: true, //enable auto height
+
+  //runCallbacksOnInit: true,
+  observer: true,
+  observeParents: true,
+  observeChildren: true,
+  spaceBetween: 0,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  loop: true,
+  preloadImages: false,
+  // Enable lazy loading
+  lazy: true,
+  lazy: {
+    loadPrevNext: true,
+  },
+
+  keyboard: {
+    enabled: true,
+  },
+
+  effect: 'coverflow',
+  coverflowEffect: {
+    rotate: 60,
+    slideShadows: false,
+  },
+  loop: true,
+  thumbs: {
+    swiper: galleryThumbs
+  }
+
+});
+
+// swiper - modal
+var swiperModal = new Swiper('.swiper-container-modal', {
+  observer: true,
+  observeParents: true,
+  observeChildren: true,
+  spaceBetween: 0,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  zoom: {
+    maxRatio: 2,
+    toggle: true,  // enable zoom-in by double tapping slide
+  },
+  loop: true,
+  preloadImages: false,
+  // Enable lazy loading
+  lazy: true,
+  lazy: {
+    loadPrevNext: true,
+    loadOnTransitionStart: true,
+  },
+
+
+  effect: 'coverflow',
+  coverflowEffect: {
+    rotate: 60,
+    slideShadows: false,
+  },
+  loop: true,
+
+
+});
+
+
+// Create a Modal With HTML, CSS & JavaScript (https://www.youtube.com/watch?v=6ophW7Ask_0)
+const nonModalGalleryImgContainer = document.querySelector(
+  '.swiper-container-main'
+);
+const nonModalGalleryImgWrapper = nonModalGalleryImgContainer.querySelector(
+  '.swiper-wrapper'
+);
+// Get modal element
+var modal = document.getElementById('simpleModal');
+// Get open modal button
+var modalBtn = document.querySelectorAll('.swiper-slide-img'); // select all swiper-slides (outside modal)
+// close button
+var closeBtn = document.getElementsByClassName('closeBtn')[0]; // returns an array... just get first one (only one element with this class)
+
+function openModal() {
+  // prevent page scrolling when modal open: https://css-tricks.com/prevent-page-scrolling-when-a-modal-is-open/
+  // When the modal is shown, we want a fixed body
+  document.body.style.position = 'fixed'; // prevents scrolling
+  document.body.style.top = `-${window.scrollY}px`; // subtract scroll top, add to body styles
+
+  let swiperIndexPos = swiper.activeIndex;
+  swiperModal.slideTo(swiperIndexPos);
+  // swiperModal.lazy.load(); // need to initailize lazy load if modal opened
+  modal.style.display ='block';
+  swiper.keyboard.disable();
+  swiperModal.keyboard.enable();
+  document.addEventListener('keydown', closeModalWithKeyboard);
+}
+
+modalBtn.forEach(element => { 
+  element.addEventListener('click', openModal); // add an click event listener for each swiper-slide (outside the modal)
+})
+
+function openModalWithKeyboard(event) {
+  if (event.key === 'Enter') {
+    openModal();
+  }
+}
+
+// open modal if non-modal image wrapper is in focus and enter is hit
+nonModalGalleryImgContainer.addEventListener('keydown', openModalWithKeyboard);
+
+
+function closeModal() {          
+  // prevent page scrolling when modal open: https://css-tricks.com/prevent-page-scrolling-when-a-modal-is-open/
+  // When the modal is hidden...
+  const scrollY = document.body.style.top; // retrieve scroll location
+  document.body.style.position = '';
+  document.body.style.top = '';
+  window.scrollTo(0, parseInt(scrollY || '0') * -1);
+
+  let swiperModalIndexPos = swiperModal.activeIndex;
+  swiper.slideTo(swiperModalIndexPos);
+  modal.style.display = 'none';
+  swiperModal.keyboard.disable();
+  swiper.keyboard.enable();
+  document.removeEventListener('keydown', closeModalWithKeyboard);
+}
+
+// Listen for close click
+closeBtn.addEventListener('click', closeModal);
+
+// close modal using Escape key 
+function closeModalWithKeyboard(event) {
+  if (event.key === 'Escape') {
+    closeModal();
+  }
+}
+</script>
+
+<script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    slidesPerView: 5,
+    spaceBetween: 0,
+    initialSlide: 3,
+    watchOverflow: true,
+    centeredSlides: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  })
+
+</script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<footer class="seccion-obscura d-flex flex-column align-items-center justify-content-center">
+
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center">
+
+    <a href="https://github.com/luciagilene" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/aixa-gilene-773375260/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+
+    <a href="https://www.instagram.com/luli_gilene/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+
+    <a href="mailto: gileneaixa04@gmail.com" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>
+
+  </div>
+
+   <div class="derechos-de-autor">Creado por Lucia Gilene (2023) &#169;</div>
+  
+</footer>
+</body>
+</html>
